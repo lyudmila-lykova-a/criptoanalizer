@@ -2,7 +2,8 @@ package ru.javarush.golf.lykova.cryptoanalyzer;
 
 public class CaesarCharEncode {
 
-    private static final String ALPHABET = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя.,”:-!? ";
+    public static final String ALPHABET = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя.,\":-!? ";
+
     private final int key;
 
 
